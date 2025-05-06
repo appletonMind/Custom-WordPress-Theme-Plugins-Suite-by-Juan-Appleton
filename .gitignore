@@ -1,0 +1,56 @@
+# Ignorar todo por defecto
+*
+
+# No ignorar el archivo .gitignore
+!.gitignore
+#no ignorar el archivo README.md
+!README.md
+
+# Incluir tu carpeta de tema personalizado
+!wp-content/themes/appletonseoagenture/**
+
+# Incluir tus plugins personalizados
+!wp-content/plugins/appletonseoagenture-arbeiter/**
+!wp-content/plugins/appletonseoagenture-bewertungen/**
+!wp-content/plugins/appletonseoagenture-dients/**
+!wp-content/plugins/appletonseoagenture-kunden/**
+
+# Ignorar el resto de WordPress
+wp-admin/
+wp-includes/
+readme.html
+license.txt
+xmlrpc.php
+wp-*.php
+index.php
+
+# Archivos del sistema / IDEs
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+*.sqlite
+*.zip
+
+# Node/npm
+node_modules/
+npm-debug.log
+
+# Composer
+vendor/
+composer.lock
+
+# Cache y backups
+*.bak
+*.swp
+.cache/
+.cache-loader/
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
