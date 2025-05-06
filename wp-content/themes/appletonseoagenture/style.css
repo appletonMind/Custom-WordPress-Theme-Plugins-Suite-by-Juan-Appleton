@@ -1,0 +1,272 @@
+/*
+    Theme Name: appletonseoagenture
+    Theme URI: 
+    Author: Juan Pablo Appleton
+    Author URI: http://juanpabloappleton.ch
+    Description: Thema für das Unternehmen appletonseoagenture entwickelt
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: Marketing, SEO, flexbox, css grid, mobile first
+    Text Domain: appletonseoagenture
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --fuente-Inter: "Inter", sans-serif;
+  --fuente-Crimson: "Inter", sans-serif;
+ --farbe-textos : #000013;
+--farbe-links:  #222445;
+--farbe-title:  #4b4882;
+--farbe-zweiter-boden : #7f71c8;
+--farbe-zweiter-boden2 : #e9dfff;
+--farbe-menu-links : #6139b8;
+--farbe-weiss : #ffffff;
+--farbe-superclaro:#f5f2fd;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*  10px 1rem */
+  margin-top: 0px !important;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--fuente-Inter);
+  font-weight: 400;
+  
+}
+
+body {
+  font-family: var(--fuente-Inter);
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  background-color: var(--farbe-zweiter-boden2);
+  height: 100%;
+}
+
+/* globales */
+
+strong{
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--fuente-Inter);
+  margin: 0 0 3rem 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: 800 ;
+
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 600;
+
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 500 ;
+
+}
+
+p {
+  font-family: var(--fuente-Crimson);
+  font-size: 1.6rem;
+  margin: 0px;
+}
+
+.titulopservices{
+  font-size: 2.4rem!important;
+  font-weight: 400;
+}
+#inhaltjedeseinzelnendienstes p{
+  width: 95%;
+}
+
+p.fondo{
+  background-color: var(--farbe-zweiter-boden);
+  padding: 0.6rem;
+  width: auto;
+  color: var(--farbe-weiss);
+  display: inline;
+}
+
+a {
+  font-size: 1.6rem;
+  color: var(--farbe1);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:active {
+  color: var(--farbe-zweiter-boden);
+}
+
+.menufixedmobile {
+  position: fixed !important;
+  top: 0;
+  z-index: 99999;
+  animation: animacionheader 1s 1 linear;
+}
+
+.miniarrow {
+  width: 20px;
+  height: 20px;
+}
+
+#scroll-btn {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: var(--farbe-zweiter-boden);
+  color: var(--farbe-weiss);
+  cursor: pointer;
+  padding: 6px 20px 0px 20px;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border: none;
+  padding: 1.2rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  border-radius: 2rem;
+  background-color: var(--farbe-menu-links);
+  font-weight: 600;
+  font-size: 1.8rem;
+color: var(--farbe-weiss);
+}
+
+a.buttom{
+  border: none;
+  padding: 1.2rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  border-radius: 2rem;
+  background-color: var(--farbe-menu-links);
+  font-weight: 600;
+  font-size: 1.8rem;
+color: var(--farbe-weiss);
+display: inline-block;
+}
+
+button:hover{
+  background-color: var(--farbe-title);
+  transition: 300ms;
+}
+.bottomstyle {
+  /* estilo de los botones  */
+}
+
+.menu-principal .current_page_item a:not(.sub-menu li a) {
+  color: var(--farbe-textos) !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* crearflechas */
+
+.arrow {
+  width: 10px;
+
+  position: relative;
+  left: 4px;
+  transition: 400ms;
+  height: 100%;
+}
+
+.arrovoltear{
+  transform: rotate(-90deg);
+}
+
+
+
+.menu-item:hover > a > img.arrow {
+  transform: rotate(0deg);
+}
+
+
+/* Abwechslungsreiche CSS-Stile wie Leerzeichen, Linien usw */
+
+hr {
+ 
+  width: 90%;
+  margin: 20px auto;
+}
+
+.containerprincipalagb{
+  padding-top: 5rem;
+  background-color: var(--farbe-weiss);
+
+}
+
+.containerprincipalagb h1{
+  padding-left: 3.6rem;
+  margin-bottom: 0px;
+  font-size: 4.8rem;
+}
+
+.containerprincipalagb h2{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+}
+
+@media(max-width:600px){
+  .containerprincipalagb h1{
+    padding: 2.4rem;
+    font-size: 3rem !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .containerprincipalagb h2{
+    font-size: 3rem !important;
+
+  }
+}

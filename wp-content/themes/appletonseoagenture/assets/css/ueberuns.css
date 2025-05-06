@@ -1,0 +1,162 @@
+
+
+.containerueberuns{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+
+}
+
+.containerueberuns .allesinhalte{
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--farbe-weiss);
+    
+
+}
+
+#ueberunsarbeitere{
+    width: 100%;
+    background-color: var(--farbe-weiss);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.4rem;
+    padding: 2.4rem;
+}
+
+#ueberunsarbeitere .containkundeindividuelle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 30%;
+
+}
+
+#ueberunsarbeitere .containkundeindividuelle .inhaltallesueberuns{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+margin-top: 1.2rem;
+gap: 1rem;
+    text-align: left;
+    width: 100%;
+    padding-right: 4.4rem;
+
+}
+
+#ueberunsarbeitere .containkundeindividuelle .inhaltallesueberuns h3{
+    margin-bottom:1rem ;
+    margin-top:1rem ;
+}
+
+#ueberunsarbeitere .position span{
+    margin-bottom: 1rem;
+    display: block;
+    color: var(--farbe-menu-links);
+}
+
+
+
+
+
+#ueberunsarbeitere .containkundeindividuelle img.bildekunden{
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 300px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 2rem;
+   
+}
+
+#angebotanfordern{
+    width: 100%;
+}
+
+.titleplusparrafo{
+    display: flex;
+    flex-direction: column;
+background-color: white;
+    padding: 4.8rem;
+    padding-bottom: 2rem;
+}
+
+.titleplusparrafo p.fondo{
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 100px;
+}
+
+#ueberunsarbeitere .position {
+    width: 65%;
+}
+
+@media(max-width:900px){
+
+
+    #ueberunsarbeitere {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.4rem;
+    }
+    #ueberunsarbeitere .containkundeindividuelle img{
+        width: 100%;
+    }
+
+    #ueberunsarbeitere .containkundeindividuelle .inhaltallesueberuns{
+        text-align: left;
+    width: 100%;
+    }
+
+    .titleplusparrafo{
+        padding: 2.4rem;
+    }
+
+    #ueberunsarbeitere .containkundeindividuelle{
+        width: 100%;
+    }
+
+    #ueberunsarbeitere .position{
+        width: 100%;
+    }
+
+    #ueberunsarbeitere .position span{
+        width: 85%;
+    }
+
+    .titleplusparrafo p.fondo{
+        font-size: 1.8rem;
+    }
+
+}
+
+
+.logolinkeding{
+    width: 4rem!important;
+    height: 4rem!important;
+}
+
+.containerueberuns #angebotanfordern {
+    text-align: center;
+
+}

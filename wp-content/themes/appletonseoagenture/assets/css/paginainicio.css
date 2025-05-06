@@ -1,0 +1,795 @@
+
+
+main#main{
+
+    display: flex;
+    flex-direction: column;
+   background-color: var(--farbe-weiss);
+
+
+}
+
+#ersteinhalt{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--farbe-superclaro);
+}
+
+#ersteinhalt .alletextenersteinhalt, #ersteinhalt .imgersteinhalt{
+
+    width: 45%;
+    padding: 3.6rem;
+
+}
+
+#ersteinhalt .alletextenersteinhalt{
+    display: flex;
+    flex-direction: column;
+}
+
+#ersteinhalt .imgersteinhalt img{
+    border-radius: 3.6rem ;
+}
+
+#ersteinhalt .alletextenersteinhalt .ersteabsatz{
+    margin-bottom: 2rem;
+}
+
+#ersteinhalt .alletextenersteinhalt .buttominicio{
+    margin-top:2.4rem;
+}
+
+/* zweiter section */
+
+section#kunden{
+    background-color: var(--farbe-weiss);
+
+}
+
+
+#Kunden {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 3.6rem;
+width: 80%;
+margin: 0px auto;
+flex-wrap: nowrap;
+
+}
+
+#Kunden .containkundeindividuelle{
+
+}
+
+
+#Kunden .containkundeindividuelle img{
+width: 70%;
+
+}
+
+/* drite section */
+
+#services {
+
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
+
+}
+
+#services .allestextenueberservices{
+width: 80%;
+margin: 0px auto;
+text-align: center;
+
+}
+
+#services .unseredienstleistungen{
+
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: minmax(300px, 400px) minmax(300px, 400px) minmax(300px, 400px);
+   column-gap: 2rem;
+   row-gap: 2rem;
+   margin-top: 4.8rem;
+   margin-bottom: 5.8rem;
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: flex-start;
+    padding: 2.4rem;
+ 
+
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle.hellefarbe{
+background-color: var(--farbe-title);
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle.dunklefarbe{
+    background-color: var(--farbe-links);
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle.hellefarbe .textenservices{
+    color: var(--farbe-weiss);
+
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle.hellefarbe .buttonservices a{
+    color: var(--farbe-weiss);
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle.dunklefarbe .textenservices{
+
+    color: var(--farbe-weiss);
+
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle.dunklefarbe .buttonservices a{
+    color: var(--farbe-weiss);
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle img{
+
+    width: 10rem;
+    height: 10rem;
+
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle .buttonservices{
+    margin-top: 2rem;   
+}
+
+#services .unseredienstleistungen .containadienstelungenindividuelle .buttonservices a{
+    color: var(--farbe-menu-links);
+    
+}
+
+#services .unseredienstleistungen .buttonservices{
+    grid-area: 4/1/5/3;
+    justify-self: center;
+}
+
+#services .wiearbeitenwir{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+}
+
+#services .wiearbeitenwir img{
+width: 47%;
+object-fit: cover;
+border-radius: 2.4rem;
+}
+
+#services .wiearbeitenwir .textenwiearbeitenwir{
+width: 48%;
+}
+
+#services .wiearbeitenwir .textenwiearbeitenwir p.fondo{
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+#services .wiearbeitenwir .listtagarbeiterwir{
+
+}
+
+#services .wiearbeitenwir .listtagarbeiterwir ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#services .wiearbeitenwir .listtagarbeiterwir ul li {
+    list-style: none;
+    width: 48%;
+    margin-top: 2rem;
+}
+
+
+#services .wiearbeitenwir .listtagarbeiterwir ul li .checkplustitel {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 2.4rem;
+gap: 2rem;
+}
+
+#services .wiearbeitenwir .listtagarbeiterwir ul li .checkplustitel span{
+font-size: 2.4rem;
+font-weight: 600;
+}
+
+#services .wiearbeitenwir .listtagarbeiterwir ul li .checkplustitel img{
+width: 5rem;
+height: 5rem;
+}
+
+#services .wiearbeitenwir .listtagarbeiterwir ul li .textenbeschreibung{
+    padding-left: 7rem;
+    padding-right: 3rem;
+}
+
+#stepallgemein{
+    background-color: var(--farbe-links);
+    color: var(--farbe-weiss);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 4.8rem;
+}
+
+
+#stepallgemein .step {
+width: 90%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 2.4rem;
+margin-bottom: 4.8rem;
+align-items: center;
+}
+
+#stepallgemein .stepvolteado{
+    flex-direction: row-reverse;
+}
+
+#stepallgemein .step .textenstep {
+width: 48%;
+}
+
+#stepallgemein .step .textenstep p.fondo {
+    margin-bottom: 2.4rem;
+    display: inline-block;
+    }
+
+
+#stepallgemein .step img {
+width: 31%;
+margin: 0px auto;
+}
+
+
+#kundenmeinung{
+    margin-bottom: 4.8rem;
+    padding: 2.4rem;
+
+}
+
+#kundenmeinung h2{
+width: 60%;
+margin: 0px auto;
+text-align: center;
+}
+
+#kundenmeinung .erhalkunden{
+    margin-top: 5.8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle{
+    width: 48%;
+    margin-bottom: 2rem;
+}
+
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle .bildermeinugnkunde{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle .bildermeinugnkunde .textenmeinungkunden span:nth-child(1){
+font-size: 2.2rem;
+font-weight: 600;
+}
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle .bildermeinugnkunde .textenmeinungkunden span.nichefirma{
+    font-weight: 600;
+    color: var(--farbe-menu-links);
+    }
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle .bildermeinugnkunde .textenmeinungkunden img{
+width: 50%;
+}
+
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle .bildermeinugnkunde img.bildekundenmainu{
+    width: 10rem;
+    height: 10rem;
+    border-radius:50% ;
+}
+
+#kundenmeinung .erhalkunden .containkundemainungindividuelle .absatz{
+    padding-left: 12rem;
+}
+
+
+#angebotanfordern{
+    background-color: var(--farbe-title);
+    color:var(--farbe-weiss);
+    padding: 4.8rem;
+}
+#angebotanfordern .containangebot{
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#angebotanfordern .containangebot .titlespan{
+font-size: 3.6rem;
+}
+
+#angebotanfordern .containangebot p{
+width: 40%;
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+
+#angebotanfordern .containangebot a{
+  background-color: var(--farbe-weiss);
+  color: var(--farbe-textos);
+  transition: 300ms;
+    }
+
+    #angebotanfordern .containangebot a:hover{
+        background-color:var(--farbe-menu-links);
+        color: var(--farbe-weiss);
+          }
+
+
+          /* services individuelle */
+
+          .containerprincipalservicios{
+background-color: var(--farbe-superclaro);
+          }
+
+           .containerprincipalservicios #ersteinhalt{
+            height: 50vh;
+          }
+
+          .containerprincipalservicios #ersteinhalt .allesservicios {
+            width: 95%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .containerprincipalservicios #ersteinhalt  .tagsservices{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            margin-top: 2rem;
+          }
+
+          .containerprincipalservicios #ersteinhalt  .tagsservices .spanmiticon{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 0.6rem;
+            margin-right: 1rem;
+        }
+
+        .linevertical{
+            height: 4rem;
+            width: 0.2rem;
+            background-color: var(--farbe-links);
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .containerprincipalservicios #ersteinhalt  .tagsservices .spanmiticon img{
+        width: 2.5rem;
+        height: 2.5rem;
+        }
+
+        #inhaltjedeseinzelnendienstes{
+            width: 100%;
+    height: 100%;
+    background-color: var(--farbe-weiss);
+    margin: 0px auto;
+    padding: 3.6rem;
+        }
+
+        .cajitasstyle{
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            width: 40%;
+            gap: 1rem;
+            background-color: var(--farbe-superclaro);
+            padding: 3.6rem;
+            min-width: 300px;
+            max-width: 400px;
+
+        }
+
+        .cajitasstyle ul {
+        
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            justify-content: center;
+            align-items: flex-start;
+
+        }
+
+        .cajitasstyle ul li{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 1rem;
+            list-style: none;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .displayflexservices{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+
+        #las2cajasinformacioncontac {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 2rem;
+width: 70%;
+    margin: 0px auto;
+}
+
+#las2cajasinformacioncontac img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20%;
+}
+       .cajainformacioncontact{
+
+            background-color: var(--farbe-zweiter-boden2);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2.4rem;
+
+        }
+
+        .cajainformacioncontact h3 {
+            margin-bottom: 0px;
+        }
+
+       .cajainformacioncontact p:first-child{
+        margin-bottom: 1rem;
+    display: inline-block;
+    width: 41%;
+    text-align: center;
+    }
+
+          /* services individuelle beenden */
+
+          ul.soloseleccionaresto{
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+
+          ul.soloseleccionaresto li{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 1rem;
+          } 
+
+          .todoenlogos{
+            display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+          }
+          .todoenlogos .logomasimagenindividual{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+          }
+
+          .organizarimagentexto{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            margin: 0px auto;
+          }
+
+          .organizarimagentexto .organizarimagenindividuell figure img{
+border-radius: 2rem;
+          }
+
+          .tituloserviciosmid{
+            text-align: center;
+          }
+
+          .colordivquenohacemos{
+            background-color: var(--farbe-superclaro);
+            padding: 3.6rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 3rem;
+            justify-content: center;
+
+          }
+
+          .organizareldivya{
+            width: 60%;
+          }
+         
+/* responsive Inhalte */
+
+
+
+@media(max-width:900px){
+
+    h1{
+        font-size: 3.5rem;
+    }
+
+    h2{
+        font-size: 3.5rem !important;
+        font-weight: 800 ;
+
+    }
+
+    #ersteinhalt{
+        height: 100%;
+    }
+
+    #ersteinhalt .alletextenersteinhalt, #ersteinhalt .imgersteinhalt{
+
+        width: 100%;
+        padding: 2.0rem;
+        padding-bottom: 3rem;
+    
+    }
+
+    #ersteinhalt .alletextenersteinhalt .ersteabsatz{
+        margin-top: 2rem;
+    }
+
+    #ersteinhalt .imgersteinhalt{
+
+        padding-top: 0.4rem;
+        padding: 0px;
+        margin-bottom: 3rem;
+
+    }
+
+    #ersteinhalt .imgersteinhalt img {
+
+        border-radius:1rem;
+
+    }
+
+    p.fondo {
+    font-size: 1.3rem;
+    }
+
+    h1{
+        font-size: 3.5rem!important;
+    }
+
+    #ersteinhalt .alletextenersteinhalt .buttominicio a.buttom{
+
+        font-size: 1.4rem;
+
+    }
+
+    #Kunden{
+flex-wrap: wrap;
+width: 100%;
+    }
+
+    #Kunden .containkundeindividuelle {
+        width: 50%;
+    }
+
+    #Kunden .containkundeindividuelle img{
+        width: 100%;
+    }
+
+    #services{
+        width: 100%;
+    }
+
+    #services .unseredienstleistungen{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0px auto;
+
+    }
+    #services .allestextenueberservices{
+        width: 90%;
+        margin-bottom: 3.6rem;
+    }
+
+    #services .wiearbeitenwir{
+        margin-top: 4.8rem;
+    }
+
+    #services .wiearbeitenwir img{
+        width: 90%;
+    }
+
+    #services .wiearbeitenwir .textenwiearbeitenwir{
+        width: 90%;
+    }
+
+    #services .wiearbeitenwir .listtagarbeiterwir ul{
+        justify-content: center;
+    }
+
+
+    #services .wiearbeitenwir .listtagarbeiterwir ul li{
+        width: 90%;
+    }
+
+    #stepallgemein .step .textenstep{
+        width: 90%;
+    }
+
+    #stepallgemein .step img{
+        width: 90%;
+    }
+
+    #stepallgemein .stepvolteado{
+        flex-direction: row;
+    }
+
+    #kundenmeinung h2{
+        width: 90%;
+    }
+
+    #kundenmeinung .erhalkunden .containkundemainungindividuelle{
+        width: 100%;
+    }
+
+    #angebotanfordern .containangebot p{
+        width: 100%;
+    }
+
+    .containerprincipalservicios #ersteinhalt {
+        height: 60vh;
+    }
+
+    .containerprincipalservicios #ersteinhalt .tagsservices{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+        margin-top: 3rem;
+    }
+
+    .containerprincipalservicios #ersteinhalt .allesservicios{
+        height: 95%;
+    }
+
+    .containerprincipalservicios #ersteinhalt .tagsservices .spanmiticon span{
+        text-align: left;
+    }
+
+    .linevertical{
+        display: none;
+    }
+
+    .cajitasstyle{
+        gap: 0rem;
+    }
+
+    #las2cajasinformacioncontac{
+        width: 100%;
+    }
+
+    .cajainformacioncontact p:first-child{
+        width: 60%;
+    }
+
+    .organizarimagentexto{
+width: 80vw;
+height: auto;
+    }
+
+    .organizar2flexhja{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+     .organizareldivya{
+        width: 100%;
+      }
+
+      .titulopservices{
+        font-weight: 500;
+        width: 100%!important;
+      }
+      #inhaltjedeseinzelnendienstes p{
+      width: 100%!important;
+      }
+
+}
+
+
+
+@media(max-width:400px){
+    .containerprincipalservicios #ersteinhalt {
+        height: 82vh;
+    }
+
+}
+
+@media(max-width:300px){
+    h2{
+        font-size: 2.5rem!important;
+    }
+    span{
+        word-break: break-all;
+    }
+
+    #kundenmeinung .erhalkunden .containkundemainungindividuelle .absatz{
+        padding-left: 0;
+    }
+}

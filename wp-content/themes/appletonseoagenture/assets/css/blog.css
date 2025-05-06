@@ -1,0 +1,283 @@
+
+
+.containerblogs{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--farbe-weiss);
+    border-bottom: 1px solid black;
+
+}
+
+.containerblogs #ersteinhalt{
+    background-color: var(--farbe-weiss);
+    height: 100%;
+
+}
+
+.containerblogs #ersteinhalt .alletextenersteinhalt{
+    margin-top: 3rem; 
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+    padding-bottom: 0px;
+
+}
+
+.containerblogs .beitraghier{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 4.8rem;
+    width: 90%;
+    padding-bottom: 3rem;
+    align-items: stretch;
+
+}
+
+.containerblogs .beitragindividual{
+    width: 30%;
+
+}
+
+.containerblogs .beitragindividual .bildermitag{
+    position: relative;
+}
+
+.containerblogs .beitragindividual .bildermitag .post-tags{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+
+}
+
+.containerblogs .beitragindividual .bildermitag .post-tags .tag{
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    padding: 5px 13px;
+    color: var(--farbe-weiss);
+}
+
+.beitraghier .beitragindividual .textenblogs{
+background-color: var(--farbe-title);
+padding: 2.4rem;
+color: var(--farbe-weiss);
+}
+
+.beitraghier .beitragindividual .textenblogs span{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.beitraghier .beitragindividual .textenblogs h2{
+
+    margin-bottom: 1rem;
+    font-size: 2.4rem!important;
+
+}
+
+.authorblogs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid var(--farbe-textos);
+    padding: 2.4rem;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    gap: 2rem;
+}
+
+.authorblogs img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+
+}
+
+.authorblogs .nameundhobby{
+    display: flex;
+    flex-direction: column;
+}
+
+.authorblogs .nameundhobby .hobbie{
+color: rgba(0, 0, 0, 0.25);
+}
+
+/* post individuellen */
+
+.contenedorpost{
+    background-color: var(--farbe-zweiter-boden2);
+
+}
+
+.contenedorpost .titlepost{
+    padding: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: var(--farbe-links);
+    color: var(--farbe-weiss);
+}
+
+.contenedorpost .titlepost h1{
+text-align: center;
+}
+
+.contenedorpost .titlepost .ersteabsatz{
+    margin-top: 7.6rem;
+}
+
+#relatedpost{
+    background-color: var(--farbe-weiss);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.364);
+    padding: 3.6rem;
+}
+
+#relatedpost .related-posts ul{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+
+gap: 3.6rem;
+list-style: none;
+}
+
+
+
+#relatedpost .related-posts ul li{
+
+    width: 30%;
+
+}
+
+#contenidoblog{
+    
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+    background-color: white;
+    border-top: 1px solid #7a7a7a;
+}
+
+#contenidoblog .completoblog{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#contenidoblog .completoblog .primerparrafoorganizar{
+    padding:3.6rem;
+    min-width: 80%;
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+#contenidoblog .completoblog .organizarjuntosfotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap!important;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center!important;
+    background-color: #f1f1f1;
+    padding:0;
+}
+
+#contenidoblog .completoblog .organizarjuntosfotos .wp-block-column:nth-child(1){
+
+    padding: 3.6rem;
+    
+
+}
+
+#contenidoblog .completoblog .organizarjuntosfotos .wp-block-column:nth-child(2) {
+width: 100%;
+height: 100%;
+}
+
+#contenidoblog .completoblog .organizarjuntosfotos .wp-block-column:nth-child(2) figure {
+
+    width: 100%;
+height: 100%;
+}
+
+#contenidoblog .completoblog .organizarjuntosfotos figure img{
+object-fit: cover;
+width: 100%!important;
+height: 100%!important;
+}
+
+#relatedpost .related-posts h3{
+text-align: center;
+margin-bottom: 2rem;
+}
+
+#relatedpost .related-posts ul li{
+
+    background-color: white;
+    padding: 2.6rem;
+
+}
+
+#relatedpost .related-posts ul li a{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+@media(max-width:900px){
+
+    .containerblogs .beitraghier{
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: .8rem;
+    }
+
+    .containerblogs .beitragindividual{
+
+        width: 100%;
+        padding: 2.4rem;
+
+    }
+
+    .beitraghier .beitragindividual .textenblogs h2{
+        font-size: 2.5rem!important;
+    }
+
+    #relatedpost .related-posts ul{
+        flex-direction: column;
+
+    }
+
+    #relatedpost .related-posts ul li{
+        width: 100%;
+
+    }
+
+    #contenidoblog .completoblog .primerparrafoorganizar{
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+}

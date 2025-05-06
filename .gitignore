@@ -1,15 +1,22 @@
 # Ignorar todo por defecto
 *
 
-# No ignorar el archivo .gitignore
+# No ignorar el archivo .gitignore y el README
 !.gitignore
-#no ignorar el archivo README.md
 !README.md
 
-# Incluir tu carpeta de tema personalizado
-!wp-content/themes/appletonseoagenture/**
+# No ignorar las carpetas intermedias necesarias
+!wp-content/
+!wp-content/themes/
+!wp-content/themes/appletonseoagenture/
+!wp-content/plugins/
+!wp-content/plugins/appletonseoagenture-arbeiter/
+!wp-content/plugins/appletonseoagenture-bewertungen/
+!wp-content/plugins/appletonseoagenture-dients/
+!wp-content/plugins/appletonseoagenture-kunden/
 
-# Incluir tus plugins personalizados
+# Incluir contenido dentro de esas carpetas
+!wp-content/themes/appletonseoagenture/**
 !wp-content/plugins/appletonseoagenture-arbeiter/**
 !wp-content/plugins/appletonseoagenture-bewertungen/**
 !wp-content/plugins/appletonseoagenture-dients/**

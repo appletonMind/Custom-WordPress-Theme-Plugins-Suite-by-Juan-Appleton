@@ -1,0 +1,83 @@
+:root {
+    --fuente-Inter: "Inter", sans-serif;
+    --fuente-Crimson: "Inter", sans-serif;
+   --farbe-textos : #000013;
+  --farbe-links:  #222445;
+  --farbe-title:  #4b4882;
+  --farbe-zweiter-boden : #7f71c8;
+  --farbe-zweiter-boden2 : #e9dfff;
+  --farbe-menu-links : #6139b8;
+  --farbe-weiss : #ffffff;
+  }
+
+footer{
+
+    background-color: var(--farbe-links);
+    
+    width: 100%;
+    padding: 2.4rem;
+    color: var(--farbe-weiss);
+
+}
+footer a {
+    color: var(--farbe-zweiter-boden2);
+}
+
+footer a:hover {
+    color: var(--farbe-zweiter-boden2);
+    text-decoration: underline;
+}
+
+footer .containerfooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .containerfooter .informacion1,footer .containerfooter .informacion2,footer .containerfooter .informacion3,footer .containerfooter .informacion4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+footer .containerfooter .informacion1 .titulofooter p,footer .containerfooter .informacion2 .linksfooter,footer .containerfooter .informacion4 .titleredsocial p{
+    font-weight: 800;
+}
+
+footer .containerfooter .informacion1 .informacionadicional,footer .containerfooter .informacion2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+footer .containerfooter .informacion2 ul {
+    list-style: none;
+}
+
+footer .containerfooter .informacion3{
+    line-height: 10.7rem;
+}
+
+footer .containerfooter .informacion4 .redesSocialesfooter{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+gap: 1rem;
+}
+
+/* responsive footer web design */
+@media(max-width:900px){
+
+    footer .containerfooter{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    footer .containerfooter .informacion3{
+        line-height: 1.2;
+    }
+
+}
